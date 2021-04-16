@@ -9,12 +9,12 @@ var highScores = [
   },
 
   {
-    name: "User A",
+    name: "A",
     score: 4,
   },
 
   {
-    name: "User B",
+    name: "B",
     score: 2,
   },
 ]
@@ -75,7 +75,7 @@ function game() {
 function showScores() {
   console.log("YAY! You SCORED: ", score);
 
-  console.log("Check out the high scores, if you have beaten it ping me on twitter @rockzyshrista!");
+  console.log("Check out the high scores, if you have beaten it ping me at my twitter @rockzyshrista!");
 
   highScores.map(score => console.log(score.name, " : ", score.score))
 }
