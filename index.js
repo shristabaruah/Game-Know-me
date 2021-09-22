@@ -38,6 +38,10 @@ var questions = [{
 {
   question: "What is my favourite fruit? ",
   answer: "Mango"
+},
+{
+  question:"Which is my favourite movie?",
+  answer:"Zindagi na milegi Dobara"
 }
 ];
 
